@@ -179,7 +179,7 @@ button {
       rgba(28, 34, 19, 0.82),
       rgba(28, 34, 19, 0.15)
     ),
-    url("ramen.jpeg")
+    url("bilder/ramen.jpeg")
     center 50% / cover no-repeat;
 }
 
