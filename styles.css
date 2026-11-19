@@ -474,9 +474,7 @@ button {
 }
 
 
-/* ------------------------------
-   MOBILE
------------------------------- */
+/*MOBILE*/
 
 @media (max-width: 650px) {
 
@@ -655,4 +653,35 @@ button {
     padding: 40px 5%;
   }
 
+}
+
+/*Blogartikel*/
+.blog-article img {
+  width: 220px;
+  max-width: 40%;
+  height: auto;
+  border-radius: 12px;
+  margin: 0 1.5rem 1rem 0;
+  float: left;
+}
+
+.blog-article img:nth-of-type(even) {
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+}
+.blog-article h2 {
+  clear: both;
+  padding-top: 1.5rem;
+}
+
+/* Mobile Darstellung BLOG */
+@media (max-width: 600px) {
+  .blog-article img,
+  .blog-article img:nth-of-type(even) {
+    float: none;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 1.5rem auto;
+  }
 }
